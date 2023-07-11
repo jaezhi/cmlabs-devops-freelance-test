@@ -1,4 +1,4 @@
-Running ansible
+Running ansible for GCP - GKE (k8)
 
 ```
 ansible-playbook -i inventory/gcp_value.yml k8.yml

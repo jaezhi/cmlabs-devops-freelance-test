@@ -8,7 +8,9 @@ all:
    gcloud_sa_path: "~/gcpserviceaccount.json" # Enter path to you service account json file
    gcloud_service_account: "service-account@project-id.iam.gserviceaccount.com"
    credential: "{{lookup('env','HOME') }}/{{gcloud_sa_path}}"
-   
+   maxvalue: 6
+   minvalue: 3
+   cpuscale: "50%"
 
    #Cluster information
    cluster_name: "production" #Name of the cluster
