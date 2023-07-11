@@ -1,0 +1,11 @@
+Running ansible
+
+```
+ansible-playbook -i inventory/gcp_value.yml k8.yml
+```
+
+how to get key GCP
+```
+IAM/admin => service account => "create service account" => key 
+```
+
